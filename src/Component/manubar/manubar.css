@@ -1,0 +1,40 @@
+.bgdark {
+    background-color: #2f93da!important;
+}
+.bm-item {
+    display: inline-block;
+  
+    color: #d1d1d1;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .bm-item:hover {
+    color: #ffffff;
+  }
+  nav .navbar-collapse {
+    position: fixed;
+    top: 56px;
+    background: #343a40;
+    left: -100%;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    transition: left 0.3s ease;
+  }
+  
+  nav .navbar-collapse.show {
+    left: 0;
+  }
+ 
+  .header {
+    background-color: #2f93da;
+    height: 40px;
+    color: white;
+    margin-top: 2px;
+    text-align: center;
+    padding-top: 5px;
+    border-top: 29px;
+}
